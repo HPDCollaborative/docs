@@ -4,9 +4,9 @@ description: Instructions, endpoints and examples for the Certifications resourc
 category: Developer Guide
 ---
 
-[[toc]]
-
 # {{ $frontmatter.title }}
+
+[[toc]]
 
 ## List Certifications by Record ID
 

@@ -4,9 +4,9 @@ description: Instructions, endpoints and examples for the Reference resource gro
 category: Developer Guide
 ---
 
-[[toc]]
-
 # {{ $frontmatter.title }}
+
+[[toc]]
 
 The Reference resource group allows you to list or add a Reference to a given record. A Record may only have a single Reference, so ensure you check for an existing Reference on your Record before attempting to add one.
 

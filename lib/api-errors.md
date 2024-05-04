@@ -4,9 +4,9 @@ description: API error message formats and examples.
 category: Libraries & Errors
 ---
 
-[[toc]]
-
 # {{ $frontmatter.title }}
+
+[[toc]]
 
 The HPDC API uses a very regimented and consistent messaging structure to return both errors and success messages for each and every request.
 

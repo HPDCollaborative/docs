@@ -4,9 +4,9 @@ description: Instructions, endpoints and examples for the Companies resource gro
 category: Developer Guide
 ---
 
-[[toc]]
-
 # {{ $frontmatter.title }}
+
+[[toc]]
 
 The Companies resource group contains a single endpoint to assist in the creation of an active company select menu for use in your UI. Response is truncated for brevity.
 

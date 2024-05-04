@@ -4,9 +4,9 @@ description: HTTP status and internal response codes for the HPDC API.
 category: Libraries & Errors
 ---
 
-[[toc]]
-
 # {{ $frontmatter.title }}
+
+[[toc]]
 
 Below find our HTTP and Internal Response Codes and their corresponding text messages.
 

@@ -4,9 +4,9 @@ description: Changelog for maintaining a date based log of changes to the HPDC d
 category: Libraries & Errors
 ---
 
-[[toc]]
-
 # {{ $frontmatter.title }}
+
+[[toc]]
 
 ## 2.1.2 - Aug 9, 2019
 

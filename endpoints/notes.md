@@ -4,9 +4,9 @@ description: Instructions, endpoints and examples for the Note model.
 category: Developer Guide
 ---
 
-[[toc]]
-
 # {{ $frontmatter.title }}
+
+[[toc]]
 
 The Note resource group allows you to list or add Note data to a given record. A Record may only have a single Note, so ensure you check for an existing Note on your Record before attempting to add data to one.
 

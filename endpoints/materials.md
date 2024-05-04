@@ -4,9 +4,9 @@ description: Instructions, endpoints and examples for records.
 category: Developer Guide
 ---
 
-[[toc]]
-
 # {{ $frontmatter.title }}
+
+[[toc]]
 
 The Materials resource contains an extra endpoint to assist in the creation of UI's in your application. Make sure you check this out and utilize it when adding Materials to a record.
 

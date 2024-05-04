@@ -4,9 +4,9 @@ description: Discussion of libraries required for using the HPDC API.
 category: Libraries & Errors
 ---
 
-[[toc]]
-
 # {{ $frontmatter.title }}
+
+[[toc]]
 
 The HPDC API is built on Laravel 5.6, and uses OAuth 2\* for authentication, thusly, the first library we've built is a simple authentication SDK written in PHP for implementing authentication to access your HPDC Builder account.
 

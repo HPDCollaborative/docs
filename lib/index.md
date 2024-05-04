@@ -4,9 +4,9 @@ description: The software license for HPDC API Documentation.
 category: Libraries & Errors
 ---
 
-[[toc]]
-
 # {{ $frontmatter.title }}
+
+[[toc]]
 
 ## Proprietary Documentation License
 

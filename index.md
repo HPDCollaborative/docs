@@ -4,9 +4,9 @@ description: Learn how to get started using the HPD Builder
 category: Introduction
 ---
 
-[[toc]]
-
 # {{ $frontmatter.title }}
+
+[[toc]]
 
 ![HPD Collaborative](/logo.svg)
 

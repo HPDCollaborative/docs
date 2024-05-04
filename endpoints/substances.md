@@ -4,9 +4,9 @@ description: Substance creation on the API.
 category: Developer Guide
 ---
 
-[[toc]]
-
 # {{ $frontmatter.title }}
+
+[[toc]]
 
 ## Add a Substance to a Material by ID
 

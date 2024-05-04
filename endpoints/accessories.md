@@ -4,9 +4,9 @@ description: Instructions, endpoints and examples for accessories.
 category: Developer Guide
 ---
 
-[[toc]]
-
 # {{ $frontmatter.title }}
+
+[[toc]]
 
 The Accessory resource group contains endpoints for consuming and adding Accessories to a given Record. Responses are truncated for brevity.
 

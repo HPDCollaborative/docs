@@ -4,9 +4,9 @@ description: Instructions, endpoints and examples for special conditions.
 category: Developer Guide
 ---
 
-[[toc]]
-
 # {{ $frontmatter.title }}
+
+[[toc]]
 
 Special Conditions were implemented starting at version 2.1.1 of the HPD Open Standard. For more information on when to use Special Conditions in your HPD see the [documentation here.](https://www.hpd-collaborative.org/special-conditions)
 

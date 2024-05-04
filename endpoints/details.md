@@ -4,9 +4,9 @@ description: Instructions, endpoints and examples for the Detail model.
 category: Developer Guide
 ---
 
-[[toc]]
-
 # {{ $frontmatter.title }}
+
+[[toc]]
 
 > [!note]
 > Response variables have been truncated for brevity.

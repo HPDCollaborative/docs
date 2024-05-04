@@ -4,9 +4,9 @@ description: Instructions, endpoints and examples for records.
 category: Developer Guide
 ---
 
-[[toc]]
-
 # {{ $frontmatter.title }}
+
+[[toc]]
 
 Records are arguably the most important aspect of building an HPD. In fact a Record **IS** an HPD. All the other parts of an HPD are tied to a given Record such as [Materials,](materials/) [Accessories,](accessories/) [References,](references/) [VOC's,](vocs/) [Certifications](certifications/) etc. When you publish an HPD to the [HPD Public Repository,](https://www.hpd-collaborative.org/hpd-public-repository/) in fact you are publishing a **_Record_**, and it's associated properties.
 

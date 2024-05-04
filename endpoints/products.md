@@ -4,9 +4,9 @@ description: Instructions, endpoints and examples for products.
 category: Developer Guide
 ---
 
-[[toc]]
-
 # {{ $frontmatter.title }}
+
+[[toc]]
 
 A Product is the basis for building HPDs. In essence, an HPD is a [Record](records/) of what all your product contains, and you can have several HPD's for a single product.
 

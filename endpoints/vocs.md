@@ -4,9 +4,9 @@ description: Instructions, endpoints and examples for the VOC resource group.
 category: Developer Guide
 ---
 
-[[toc]]
-
 # {{ $frontmatter.title }}
+
+[[toc]]
 
 The VOC resource group allows you to list or add a VOC to a given record. A Record may only have a single VOC, so ensure you check for an existing VOC on your Record before attempting to add one.
 

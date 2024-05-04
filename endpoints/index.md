@@ -4,9 +4,9 @@ description: Overview and discussion of resource methods and basic example defin
 category: Developer Guide
 ---
 
-[[toc]]
-
 # {{ $frontmatter.title }}
+
+[[toc]]
 
 The purpose of this document is to provide developers with endpoints and required/allowed parameters to consume the HPDC API.
 
