@@ -1,6 +1,7 @@
 ---
 title: Response Codes
 description: HTTP status and internal response codes for the HPDC API.
+category: Libraries & Errors
 ---
 
 [[toc]]

@@ -1,6 +1,7 @@
 ---
 title: API Errors
 description: API error message formats and examples.
+category: Libraries & Errors
 ---
 
 [[toc]]

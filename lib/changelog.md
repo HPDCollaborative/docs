@@ -1,6 +1,7 @@
 ---
 title: CHANGELOG
 description: Changelog for maintaining a date based log of changes to the HPDC documentation
+category: Libraries & Errors
 ---
 
 [[toc]]

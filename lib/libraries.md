@@ -1,6 +1,7 @@
 ---
 title: API Libraries
 description: Discussion of libraries required for using the HPDC API.
+category: Libraries & Errors
 ---
 
 [[toc]]

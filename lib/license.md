@@ -1,6 +1,7 @@
 ---
 title: Software License
 description: The software license for HPDC API Documentation.
+category: Libraries & Errors
 ---
 
 [[toc]]
