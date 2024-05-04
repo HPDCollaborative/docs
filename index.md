@@ -8,7 +8,7 @@ category: Introduction
 
 # {{ $frontmatter.title }}
 
-![HPD Collaborative](/logo.png)
+![HPD Collaborative](/logo.svg)
 
 You can contribute to the documentation in the following two ways:
 
