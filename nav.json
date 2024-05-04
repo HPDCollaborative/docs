@@ -1,0 +1,97 @@
+[
+  {
+    "text": "Introduction",
+    "items": [
+      {
+        "text": "Getting Started",
+        "link": ""
+      }
+    ]
+  },
+  {
+    "text": "Developer Guide",
+    "items": [
+      {
+        "text": "Overview",
+        "link": "endpoints/"
+      },
+      {
+        "text": "Accessories",
+        "link": "endpoints/accessories"
+      },
+      {
+        "text": "Certifications",
+        "link": "endpoints/certifications"
+      },
+      {
+        "text": "Companies",
+        "link": "endpoints/companies"
+      },
+      {
+        "text": "Details",
+        "link": "endpoints/details"
+      },
+      {
+        "text": "Materials",
+        "link": "endpoints/materials"
+      },
+      {
+        "text": "Notes",
+        "link": "endpoints/notes"
+      },
+      {
+        "text": "Products",
+        "link": "endpoints/products"
+      },
+      {
+        "text": "Records",
+        "link": "endpoints/records"
+      },
+      {
+        "text": "References",
+        "link": "endpoints/references"
+      },
+      {
+        "text": "Special Conditions",
+        "link": "endpoints/special-conditions"
+      },
+      {
+        "text": "Substances",
+        "link": "endpoints/substances"
+      },
+      {
+        "text": "Summary",
+        "link": "endpoints/summary"
+      },
+      {
+        "text": "Vocs",
+        "link": "endpoints/vocs"
+      }
+    ]
+  },
+  {
+    "text": "Libraries & Errors",
+    "items": [
+      {
+        "text": "License",
+        "link": "lib/"
+      },
+      {
+        "text": "Libraries",
+        "link": "lib/libraries"
+      },
+      {
+        "text": "API Errors",
+        "link": "lib/api-errors"
+      },
+      {
+        "text": "Response Codes",
+        "link": "lib/response-codes"
+      },
+      {
+        "text": "CHANGELOG",
+        "link": "lib/changelog"
+      }
+    ]
+  }
+]

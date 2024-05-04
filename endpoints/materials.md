@@ -1,15 +1,16 @@
 ---
 title: Material Endpoints
 description: Instructions, endpoints and examples for records.
+category: Developer Guide
 ---
 
 [[toc]]
 
-# Material Endpoints {.doc-heading}
+# {{ $frontmatter.title }}
 
 The Materials resource contains an extra endpoint to assist in the creation of UI's in your application. Make sure you check this out and utilize it when adding Materials to a record.
 
-### List Materials by Record ID {.doc-heading}
+### List Materials by Record ID
 
 ::: abstract requirements
 
@@ -58,7 +59,7 @@ Response returns: `collection | empty`
 }
 ```
 
-### Filter Materials by Record ID {.doc-heading}
+### Filter Materials by Record ID
 
 ::: abstract requirements
 
@@ -161,7 +162,7 @@ Response returns: `collection | empty`
 }
 ```
 
-### Fetch a Material by ID {.doc-heading}
+### Fetch a Material by ID
 
 ::: abstract requirements
 
@@ -201,7 +202,7 @@ Response returns: `resource | 404`
 }
 ```
 
-### Filter a Material by ID {.doc-heading}
+### Filter a Material by ID
 
 ::: abstract requirements
 
@@ -301,7 +302,7 @@ Response returns: `resource | 404`
 }
 ```
 
-### Add a Material to a Record {.doc-heading}
+### Add a Material to a Record
 
 ::: abstract requirements
 

@@ -1,17 +1,18 @@
 ---
 title: Record Endpoints
 description: Instructions, endpoints and examples for records.
+category: Developer Guide
 ---
 
 [[toc]]
 
-# Record Endpoints {.doc-heading}
+# {{ $frontmatter.title }}
 
 Records are arguably the most important aspect of building an HPD. In fact a Record **IS** an HPD. All the other parts of an HPD are tied to a given Record such as [Materials,](materials/) [Accessories,](accessories/) [References,](references/) [VOC's,](vocs/) [Certifications](certifications/) etc. When you publish an HPD to the [HPD Public Repository,](https://www.hpd-collaborative.org/hpd-public-repository/) in fact you are publishing a **_Record_**, and it's associated properties.
 
 There are several different ways to interact with Records via the API.
 
-### List Records by Product ID {.doc-heading}
+### List Records by Product ID
 
 ::: abstract requirements
 
@@ -62,7 +63,7 @@ Response returns: `resource collection | empty`
 }
 ```
 
-### Filter Records by Product ID {.doc-heading}
+### Filter Records by Product ID
 
 ::: abstract requirements
 
@@ -346,7 +347,7 @@ Response returns: `resource collection | error`
 }
 ```
 
-### Fetch a Record by ID {.doc-heading}
+### Fetch a Record by ID
 
 ::: abstract requirements
 
@@ -394,7 +395,7 @@ Response returns: `resource | 404`
 }
 ```
 
-### Filter a Record by ID {.doc-heading}
+### Filter a Record by ID
 
 ::: abstract requirements
 
@@ -675,7 +676,7 @@ Response returns: `resource | 404`
 }
 ```
 
-### Create a New Record {.doc-heading}
+### Create a New Record
 
 ::: abstract requirements
 
@@ -708,12 +709,10 @@ curl --request POST \
 
 Response returns: `resource | validation errors`
 
-::: tip
-Inventory type 5, a Basic Record, will also create a Material and Detail resource and return those with the new Record resource.
-
-    If you're creating your Record in Steps, you should store the returned `id` field in your application as it will be used when creating all other properties of your Record.
-
-:::
+> [!tip]
+> Inventory type 5, a Basic Record, will also create a Material and Detail resource and return those with the new Record resource.
+>
+> If you're creating your Record in Steps, you should store the returned `id` field in your application as it will be used when creating all other properties of your Record.
 
 Inventory type 4 - Nested:
 

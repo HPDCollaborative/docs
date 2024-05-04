@@ -1,17 +1,17 @@
 ---
-title: Details
+title: Detail Endpoints
 description: Instructions, endpoints and examples for the Detail model.
+category: Developer Guide
 ---
 
 [[toc]]
 
-# Details Endpoints {.doc-heading}
+# {{ $frontmatter.title }}
 
-::: note
-Response variables have been truncated for brevity.
-:::
+> [!note]
+> Response variables have been truncated for brevity.
 
-### List Detail by Record ID {.doc-heading}
+### List Detail by Record ID
 
 ::: abstract requirements
 
@@ -55,7 +55,7 @@ Response returns: `resource | 404`
 }
 ```
 
-### Filter Detail by Record ID {.doc-heading}
+### Filter Detail by Record ID
 
 ::: abstract requirements
 
@@ -120,7 +120,7 @@ Response returns: `resource | error`
 }
 ```
 
-### Add Data to Detail by Record ID {.doc-heading}
+### Add Data to Detail by Record ID
 
 ::: abstract requirements
 

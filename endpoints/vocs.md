@@ -1,15 +1,16 @@
 ---
-title: VOCs
+title: VOC Endpoints
 description: Instructions, endpoints and examples for the VOC resource group.
+category: Developer Guide
 ---
 
 [[toc]]
 
-# VOC Endpoints {.doc-heading}
+# {{ $frontmatter.title }}
 
 The VOC resource group allows you to list or add a VOC to a given record. A Record may only have a single VOC, so ensure you check for an existing VOC on your Record before attempting to add one.
 
-### Fetch VOC by Record ID {.doc-heading}
+### Fetch VOC by Record ID
 
 ::: abstract requirements
 
@@ -51,7 +52,7 @@ Response returns: `resource | error`
 }
 ```
 
-### Filter VOC by Record ID {.doc-heading}
+### Filter VOC by Record ID
 
 ::: abstract requirements
 
@@ -115,7 +116,7 @@ Response returns: `response | error`
 }
 ```
 
-### Add VOC to Record {.doc-heading}
+### Add VOC to Record
 
 ::: abstract requirements
 

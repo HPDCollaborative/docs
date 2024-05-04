@@ -1,15 +1,16 @@
 ---
-title: Companies
+title: Company Endpoints
 description: Instructions, endpoints and examples for the Companies resource group.
+category: Developer Guide
 ---
 
 [[toc]]
 
-# Companies {.doc-heading}
+# {{ $frontmatter.title }}
 
 The Companies resource group contains a single endpoint to assist in the creation of an active company select menu for use in your UI. Response is truncated for brevity.
 
-### List Active Companies {.doc-heading}
+### List Active Companies
 
 ::: abstract requirements
 

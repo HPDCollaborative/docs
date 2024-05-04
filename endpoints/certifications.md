@@ -1,13 +1,14 @@
 ---
-title: Certifications
+title: Certification Endpoints
 description: Instructions, endpoints and examples for the Certifications resource group.
+category: Developer Guide
 ---
 
 [[toc]]
 
-# Certification Endpoints {.doc-heading}
+# {{ $frontmatter.title }}
 
-## List Certifications by Record ID {.doc-heading}
+## List Certifications by Record ID
 
 ::: abstract requirements
 
@@ -60,7 +61,7 @@ Response returns: `collection | null`
 }
 ```
 
-## List Certification by ID {.doc-heading}
+## List Certification by ID
 
 ::: abstract requirements
 
@@ -110,7 +111,7 @@ Response returns: `resource | 404`
 }
 ```
 
-## Add a New Certification by Record ID {.doc-heading}
+## Add a New Certification by Record ID
 
 ::: abstract requirements
 
@@ -179,11 +180,10 @@ Response returns: `resource | validation errors`
 }
 ```
 
-## 4. Selectable Options {.doc-heading}
+## 4. Selectable Options
 
-::: info
-Use this endpoint to build radio buttons for your UI to select the allowed type and party for your certification
-:::
+> [!info]
+> Use this endpoint to build radio buttons for your UI to select the allowed type and party for your certification
 
 ::: abstract requirements
 

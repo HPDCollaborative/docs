@@ -1,21 +1,21 @@
 ---
 title: Product Endpoints
 description: Instructions, endpoints and examples for products.
+category: Developer Guide
 ---
 
 [[toc]]
 
-# Product Endpoints {.doc-heading}
+# {{ $frontmatter.title }}
 
 A Product is the basis for building HPDs. In essence, an HPD is a [Record](records/) of what all your product contains, and you can have several HPD's for a single product.
 
 Product endpoints can be used to list existing products, or create a new product.
 
-### List All Products {.doc-heading}
+### List All Products
 
-::: note update
-The List All Products endpoint now allows you to pass in an optional company id number to list all the products belonging to a specific company that you are a member of.
-:::
+> [!note] update
+> The List All Products endpoint now allows you to pass in an optional company id number to list all the products belonging to a specific company that you are a member of.
 
 ::: abstract requirements
 
@@ -74,11 +74,10 @@ Response returns: `resource collection | empty`
 }
 ```
 
-### Filter All Products {.doc-heading}
+### Filter All Products
 
-::: note update
-The Filter All Products endpoint now allows you to pass in an optional company id number to list all the products belonging to a specific company that you are a member of.
-:::
+> [!note] update
+> The Filter All Products endpoint now allows you to pass in an optional company id number to list all the products belonging to a specific company that you are a member of.
 
 ::: abstract requirements
 
@@ -152,7 +151,7 @@ Response returns: `collection | empty`
 }
 ```
 
-### Fetch Product by ID {.doc-heading}
+### Fetch Product by ID
 
 ::: abstract requirements
 
@@ -192,7 +191,7 @@ Response returns: `resource | 404`
 }
 ```
 
-### Filter Product by ID {.doc-heading}
+### Filter Product by ID
 
 ::: abstract requirements
 
@@ -264,7 +263,7 @@ Response returns: `resource | 404`
 }
 ```
 
-### Create a New Product {.doc-heading}
+### Create a New Product
 
 ::: abstract requirements
 

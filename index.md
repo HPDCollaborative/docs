@@ -1,13 +1,14 @@
 ---
 title: Getting Started with the Builder
 description: Learn how to get started using the HPD Builder
+category: Introduction
 ---
 
 [[toc]]
 
-# Getting Started with the Builder {.doc-heading}
+# {{ $frontmatter.title }}
 
-![HPD Collaborative](/storage/2.1/logo.png)
+![HPD Collaborative](/logo.png)
 
 You can contribute to the documentation in the following two ways:
 
@@ -16,11 +17,11 @@ You can contribute to the documentation in the following two ways:
 
 In either scenario, please submit your email address and position to [Milla Marcano](mailto:mmarcano@hpd-collaborative.org) and specify whether you'd like to be added to the repository or Dropbox.
 
-## Architecture {.doc-heading}
+## Architecture
 
 The documentation is built on a system called **[Doczilla](https://doczil.la)** which you can learn more about here: [https://doczil.la](https://doczil.la)
 
-## Editing Files {.doc-heading}
+## Editing Files
 
 Doczilla uses [Markdown](https://daringfireball.net/projects/markdown/syntax) to simplify writing documents.
 

@@ -1,15 +1,16 @@
 ---
 title: Completeness Summary
 description: Instructions, endpoints and examples for the Summary resource group.
+category: Developer Guide
 ---
 
 [[toc]]
 
-# Completeness Summary {.doc-heading}
+# {{ $frontmatter.title }}
 
 The Completeness Summary provides you with a simple array to show which items still require attention. You can create a simple modal component in your UI to display this to your users.
 
-### List Summary by Record ID {.doc-heading}
+### List Summary by Record ID
 
 ::: abstract requirements
 

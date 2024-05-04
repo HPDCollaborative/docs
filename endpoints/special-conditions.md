@@ -1,21 +1,21 @@
 ---
-title: Special Conditions
+title: Special Condition Endpoints
 description: Instructions, endpoints and examples for special conditions.
+category: Developer Guide
 ---
 
 [[toc]]
 
-# Special Condition Endpoints {.doc-heading}
+# {{ $frontmatter.title }}
 
 Special Conditions were implemented starting at version 2.1.1 of the HPD Open Standard. For more information on when to use Special Conditions in your HPD see the [documentation here.](https://www.hpd-collaborative.org/special-conditions)
 
 This page will cover both Special Condition Materials and Special Condition Substances as well as the Selectable Options for Special Conditions for use in your own UI.
 
-## 1. Selectable Options {.doc-heading}
+## 1. Selectable Options
 
-::: note
-Use this endpoint to create a select menu or radio buttons for selecting the appropriate Special Condition for your Material or Substance. These condition ids are the same for both Materials and Substances.
-:::
+> [!note]
+> Use this endpoint to create a select menu or radio buttons for selecting the appropriate Special Condition for your Material or Substance. These condition ids are the same for both Materials and Substances.
 
 ::: abstract requirements
 
@@ -51,11 +51,10 @@ Response returns: `array`
 }
 ```
 
-## Add a Special Condition Material to a Record {.doc-heading}
+## Add a Special Condition Material to a Record
 
-::: danger important
-When created your UI for adding a Special Condition Material, it's important to provide the user with a select menu or other method to select from existing Materials, and to select the appropriate Special Condition (see above). You will also need to provide a text field so that they can create a new Material. If a `material_id` is not passed to the API, then a `name` field is required.
-:::
+> [!danger] important
+> When created your UI for adding a Special Condition Material, it's important to provide the user with a select menu or other method to select from existing Materials, and to select the appropriate Special Condition (see above). You will also need to provide a text field so that they can create a new Material. If a `material_id` is not passed to the API, then a `name` field is required.
 
 ::: abstract requirements
 
@@ -118,11 +117,10 @@ Response returns: `resource | validation errors`
 }
 ```
 
-## Add a Special Condition Substance to a Material {.doc-heading}
+## Add a Special Condition Substance to a Material
 
-::: danger important
-Special Condition substances utilize a single array field `payload` to store the data corresponding to the passed in `condition_id`. These values vary based on the condition. Please make double sure that you pass in the correct set of values under the `payload` field as references in section 4 below.
-:::
+> [!danger] important
+> Special Condition substances utilize a single array field `payload` to store the data corresponding to the passed in `condition_id`. These values vary based on the condition. Please make double sure that you pass in the correct set of values under the `payload` field as references in section 4 below.
 
 ::: abstract requirements
 
@@ -186,13 +184,12 @@ Response returns: `resource | validation errors`
 }
 ```
 
-## Payload Params by Condition ID {.doc-heading}
+## Payload Params by Condition ID
 
-::: note
-As referenced above each condition has different parameters that must be passed as the `payload` field. These values are expressed below in JSON format, please convert these values to arrays for whichever language you're using in your application.
-:::
+> [!note]
+> As referenced above each condition has different parameters that must be passed as the `payload` field. These values are expressed below in JSON format, please convert these values to arrays for whichever language you're using in your application.
 
-### Biological Material {.doc-heading}
+### Biological Material
 
 ::: abstract requirements
 
@@ -220,7 +217,7 @@ payload: {
 }
 ```
 
-#### Geological Material {.doc-heading}
+#### Geological Material
 
 ::: abstract requirements
 
@@ -242,7 +239,7 @@ payload: {
 }
 ```
 
-#### Mixed Recycled Content {.doc-heading}
+#### Mixed Recycled Content
 
 ::: abstract requirements
 
@@ -280,7 +277,7 @@ payload: {
 }
 ```
 
-#### Electronics {.doc-heading}
+#### Electronics
 
 ::: abstract requirements
 

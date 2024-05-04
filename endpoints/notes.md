@@ -1,15 +1,16 @@
 ---
-title: Notes
+title: Note Endpoints
 description: Instructions, endpoints and examples for the Note model.
+category: Developer Guide
 ---
 
 [[toc]]
 
-# Notes Endpoints {.doc-heading}
+# {{ $frontmatter.title }}
 
 The Note resource group allows you to list or add Note data to a given record. A Record may only have a single Note, so ensure you check for an existing Note on your Record before attempting to add data to one.
 
-### Fetch Note by Record ID {.doc-heading}
+### Fetch Note by Record ID
 
 ::: abstract requirements
 
@@ -47,7 +48,7 @@ Response returns: `resource | 404`
 }
 ```
 
-### Filter Note by Record ID {.doc-heading}
+### Filter Note by Record ID
 
 ::: abstract requirements
 
@@ -107,7 +108,7 @@ Response returns: `resource | error`
 }
 ```
 
-### Add Data to Note by Record ID {.doc-heading}
+### Add Data to Note by Record ID
 
 Adding data to a Note serves as an update to the existing empty Note created during the record creation process. No new Note is created.
 

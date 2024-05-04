@@ -1,15 +1,16 @@
 ---
-title: Accessories
+title: Accessory Endpoints
 description: Instructions, endpoints and examples for accessories.
+category: Developer Guide
 ---
 
 [[toc]]
 
-# Accessory Endpoints {.doc-heading}
+# {{ $frontmatter.title }}
 
 The Accessory resource group contains endpoints for consuming and adding Accessories to a given Record. Responses are truncated for brevity.
 
-### List Accessories by Record ID {.doc-heading}
+### List Accessories by Record ID
 
 ::: abstract requirements
 
@@ -52,7 +53,7 @@ Response returns: `collection | empty`
 }
 ```
 
-### Filter Accessories by Record ID {.doc-heading}
+### Filter Accessories by Record ID
 
 ::: abstract requirements
 
@@ -120,7 +121,7 @@ Response returns: `collection | empty`
 }
 ```
 
-### Fetch an Accessory by ID {.doc-heading}
+### Fetch an Accessory by ID
 
 ::: abstract requirements
 
@@ -161,7 +162,7 @@ Response returns: `resource | 404`
 }
 ```
 
-### Filter an Accessory by ID {.doc-heading}
+### Filter an Accessory by ID
 
 ::: abstract requirements
 
@@ -226,7 +227,7 @@ Response returns: `resource | 404`
 }
 ```
 
-### Add an Accessory to a Record {.doc-heading}
+### Add an Accessory to a Record
 
 ::: abstract requirements
 

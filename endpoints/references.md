@@ -1,15 +1,16 @@
 ---
-title: References
+title: Reference Endpoints
 description: Instructions, endpoints and examples for the Reference resource group.
+category: Developer Guide
 ---
 
 [[toc]]
 
-# Reference Endpoints {.doc-heading}
+# {{ $frontmatter.title }}
 
 The Reference resource group allows you to list or add a Reference to a given record. A Record may only have a single Reference, so ensure you check for an existing Reference on your Record before attempting to add one.
 
-### Fetch Reference by Record ID {.doc-heading}
+### Fetch Reference by Record ID
 
 ::: abstract requirements
 
@@ -56,7 +57,7 @@ Response returns: `resource | error`
 }
 ```
 
-### Filter Reference by Record ID {.doc-heading}
+### Filter Reference by Record ID
 
 ::: abstract requirements
 
@@ -142,7 +143,7 @@ Response returns: `resource | error`
 }
 ```
 
-### Add Reference Data to Record {.doc-heading}
+### Add Reference Data to Record
 
 A Record may not have more than one Reference, so adding a Reference to a Record where one already exists will return an error.
 
@@ -206,11 +207,9 @@ Response returns: `resource | error`
 }
 ```
 
-## Special Notes {.doc-heading}
+## Special Notes
 
-::: tip
-When creating a new Reference, use the [Companies](companies/) endpoint to create a list of available active companies for your `prepared_by` and `verified_by` variables.
-
-    [Companies](companies/) produces an array to create a select menu for your UI.
-
-:::
+> [!tip]
+> When creating a new Reference, use the [Companies](companies/) endpoint to create a list of available active companies for your `prepared_by` and `verified_by` variables.
+>
+> [Companies](companies/) produces an array to create a select menu for your UI.

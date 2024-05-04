@@ -1,13 +1,14 @@
 ---
-title: Substances
+title: Substance Endpoints
 description: Substance creation on the API.
+category: Developer Guide
 ---
 
 [[toc]]
 
-# Substance Endpoints {.doc-heading}
+# {{ $frontmatter.title }}
 
-## Add a Substance to a Material by ID {.doc-heading}
+## Add a Substance to a Material by ID
 
 ::: abstract requirements
 

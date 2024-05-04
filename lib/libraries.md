@@ -5,19 +5,18 @@ description: Discussion of libraries required for using the HPDC API.
 
 [[toc]]
 
-# Libraries {.doc-heading}
+# {{ $frontmatter.title }}
 
 The HPDC API is built on Laravel 5.6, and uses OAuth 2\* for authentication, thusly, the first library we've built is a simple authentication SDK written in PHP for implementing authentication to access your HPDC Builder account.
 
 You can find the SDK on our GitHub account: [HPDCollaborative/php-sdk](https://github.com/HPDCollaborative/php-sdk)
 
-::: danger required
-**YOU MUST BE AN EXISTING API PARTNER TO USE THE API**
-:::
+> [!danger] required
+> **YOU MUST BE AN EXISTING API PARTNER TO USE THE API**
 
 Once you've received access to the API as a Partner, you can then begin integrating OAuth2 authentication and token access with this SDK, or you can roll your own using the SDK as a guide.
 
-## Installation {.doc-heading}
+## Installation
 
 The SDK uses composer to manage dependencies so you'll need to ensure you have a working knowledge of composer to install and integrate it into your application.
 
@@ -30,7 +29,7 @@ composer require hpdc/sdk
 
 This will download the SDK into your vendor directory and set up autoloading with the PSR-4 autoloading convention.
 
-## Usage {.doc-heading}
+## Usage
 
 The SDK uses [Guzzle](https://github.com/guzzle/guzzle) to create a CURL client and properly formatted PSR-7 messages, if you're rolling your own SDK in a different language, feel free to implement whichever CURL wrapper works best for you.
 
@@ -125,8 +124,8 @@ public function forget()
 {
 	// remove API token from session.
 	session()->forget('api-token');
-    session()->forget('api');
+  session()->forget('api');
 
-    return redirect('/');
+  return redirect('/');
 }
 ```

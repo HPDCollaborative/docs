@@ -5,11 +5,11 @@ description: HTTP status and internal response codes for the HPDC API.
 
 [[toc]]
 
-# Response Codes {.doc-heading}
+# {{ $frontmatter.title }}
 
 Below find our HTTP and Internal Response Codes and their corresponding text messages.
 
-## HTTP Status Codes {.doc-heading}
+## HTTP Status Codes
 
 | **Code** | **Text**                      |
 | -------- | ----------------------------- |
@@ -51,11 +51,10 @@ Below find our HTTP and Internal Response Codes and their corresponding text mes
 | 504      | Gateway Timeout               |
 | 505      | HTTP Version Not Supported    |
 
-## Internal Response Codes {.doc-heading}
+## Internal Response Codes
 
-::: info Changes & Updates
-Internal Response Codes may be updated from time to time and the date of changes will be located within the [Change log.](./changelog)
-:::
+> [!info] Changes & Updates
+> Internal Response Codes may be updated from time to time and the date of changes will be located within the [Change log.](./changelog)
 
 | **Code** | **Text**                                             |
 | -------- | ---------------------------------------------------- |

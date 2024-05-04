@@ -5,13 +5,13 @@ description: API error message formats and examples.
 
 [[toc]]
 
-# API Errors {.doc-heading}
+# {{ $frontmatter.title }}
 
 The HPDC API uses a very regimented and consistent messaging structure to return both errors and success messages for each and every request.
 
 Your application, whether build in PHP, Javascript, ASP, Java or whatever language you've chosen, should rely on both HTTP status codes and messages to provide both developers and users with a consistent development and user experience.
 
-## Message Format {.doc-heading}
+## Message Format
 
 All responses from the API are returned in JSON format for both simplicity and consistency.
 
@@ -24,7 +24,7 @@ All response will contain the following keys:
 5. _(array)_ **`data`** - (optional) depending on whether errors exist.
 6. _(array)_ **`error`** - (optional) only returned if errors exist in the request.
 
-### Errors {.doc-heading}
+### Errors
 
 If the response contains errors, you will receive an `error` array which will contain item 3 and 4 above, and the additional errors to be corrected.
 
@@ -32,7 +32,7 @@ If no errors exist, you will receive a `data` array with any data requested, and
 
 Let's look at some examples.
 
-### Examples {.doc-heading}
+### Examples
 
 **This shows a status 200 response of product id 2:**
 
@@ -55,9 +55,8 @@ Let's look at some examples.
 
 **This shows an error response for a product that doesn't exist:**
 
-::: tip
-Notice that the HPDC internal status and message are located inside the error array.
-:::
+> [!tip]
+> Notice that the HPDC internal status and message are located inside the error array.
 
 ```json
 {
@@ -85,9 +84,8 @@ Notice that the HPDC internal status and message are located inside the error ar
 
 **This example shows a POST response with validation errors:**
 
-::: tip
-Notice the `invalid` array inside `error` that lists all the validation errors.
-:::
+> [!tip]
+> Notice the `invalid` array inside `error` that lists all the validation errors.
 
 ```json
 {

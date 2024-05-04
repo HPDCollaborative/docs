@@ -1,11 +1,12 @@
 ---
 title: API Overview
 description: Overview and discussion of resource methods and basic example definitions.
+category: Developer Guide
 ---
 
 [[toc]]
 
-# API Overview {.doc-heading}
+# {{ $frontmatter.title }}
 
 The purpose of this document is to provide developers with endpoints and required/allowed parameters to consume the HPDC API.
 
@@ -13,15 +14,14 @@ Prior to attempting to connect with the API, ensure you've read through the [OAu
 
 Examples below represent only successful requests that return an HTTP status code of 200, for information on message formats and error codes, see the [API Errors](api-errors/) or [Response Codes](response-codes/) pages.
 
-## Endpoints {.doc-heading}
+## Endpoints
 
 In our endpoint examples we'll show only basic CURL examples.
 
-::: note
-If you're using an HTTP library for your application such as [Guzzle](https://github.com/guzzle/guzzle) for PHP apps, or [Axios](https://github.com/axios/axios) for Node apps, you'll need to consult the package documentation for specific instructions on making successful HTTP requests.
-:::
+> [!note]
+> If you're using an HTTP library for your application such as [Guzzle](https://github.com/guzzle/guzzle) for PHP apps, or [Axios](https://github.com/axios/axios) for Node apps, you'll need to consult the package documentation for specific instructions on making successful HTTP requests.
 
-## Resource Methods {.doc-heading}
+## Resource Methods
 
 At present, the HPDC API accepts only the following resource methods:
 
@@ -33,19 +33,16 @@ The **DELETE** and **PATCH** methods are not accepted and will return **405 Meth
 
 **PUT** methods are used only for sending optional parameters in order to vary a given response. For instance if you wanted to request a base HPD Record by it's ID, you would send a **GET** request. If you wanted to request an advanced HPD Record by it's ID, and include all it's Materials and Accessories, this would be a **PUT** request.
 
-::: warning
-Once again to be clear, editing and deleted is **not supported** through the API at this time.
-:::
+> [!warning]
+> Once again to be clear, editing and deleted is **not supported** through the API at this time.
 
-## Examples {.doc-heading}
+## Examples
 
-::: note
-Endpoint code examples assume that you've stored both the root api url, and your OAuth token into a session, local storage, or another storage mechanism of your choosing so that they can be easily referenced via variable. For the purposes of our examples we will use the placeholders `API_URL` and `TOKEN` to hold the place of those variables.
-:::
+> [!note]
+> Endpoint code examples assume that you've stored both the root api url, and your OAuth token into a session, local storage, or another storage mechanism of your choosing so that they can be easily referenced via variable. For the purposes of our examples we will use the placeholders `API_URL` and `TOKEN` to hold the place of those variables.
 
-::: danger correct url
-Ensure you're using the appropriate `API_URL` for your OAuth Client, development and production Clients and URLS are **NOT** interchangeable.
-:::
+> [!danger] correct url
+> Ensure you're using the appropriate `API_URL` for your OAuth Client, development and production Clients and URLS are **NOT** interchangeable.
 
 An example request might look something similar to this:
 
