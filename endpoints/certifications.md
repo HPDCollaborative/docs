@@ -180,7 +180,7 @@ Response returns: `resource | validation errors`
 }
 ```
 
-## 4. Selectable Options
+## Selectable Options
 
 > [!info]
 > Use this endpoint to build radio buttons for your UI to select the allowed type and party for your certification
