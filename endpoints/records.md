@@ -103,7 +103,7 @@ curl --request PUT \
 
 Response returns: `resource collection | error`
 
-```json{21-27,35-42,52-64,82-113,129-140,151-172}
+```json{21-238}
 {
   "http_status": 200,
   "http_message": "OK",
@@ -435,7 +435,7 @@ curl --request PUT \
 
 Response returns: `resource | 404`
 
-```json{20-26,34-41,51-63,81-112,128-139,150-171}
+```json{20-235}
 {
   "http_status": 200,
   "http_message": "OK",
@@ -716,7 +716,7 @@ Response returns: `resource | validation errors`
 
 Inventory type 4 - Nested:
 
-```json{20-26}
+```json{20-33}
 {
   "http_status": 200,
   "http_message": "OK",
@@ -756,7 +756,7 @@ Inventory type 4 - Nested:
 
 Inventory type 5 - Basic:
 
-```json{20-26,34-46}
+```json{20-66}
 {
   "http_status": 200,
   "http_message": "OK",

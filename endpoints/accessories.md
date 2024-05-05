@@ -191,7 +191,7 @@ curl --request PUT \
 
 Response returns: `resource | 404`
 
-```json{13}
+```json{13-31}
 {
   "http_status": 200,
   "http_message": "OK",

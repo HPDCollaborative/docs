@@ -81,7 +81,7 @@ curl --request PUT \
 
 Response returns: `response | error`
 
-```json{15}
+```json{15-30}
 {
   "http_status": 200,
   "http_message": "OK",

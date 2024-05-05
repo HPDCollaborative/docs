@@ -89,7 +89,7 @@ curl --request PUT \
 
 Response returns: `collection | empty`
 
-```json{20-39}
+```json{20-66}
 {
   "http_status": 200,
   "http_message": "OK",
@@ -233,7 +233,7 @@ curl --request PUT \
 
 Response returns: `resource | 404`
 
-```json{19-38}
+```json{19-64}
 {
   "http_status": 200,
   "http_message": "OK",

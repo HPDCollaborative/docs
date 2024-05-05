@@ -24,7 +24,6 @@ The SDK uses composer to manage dependencies so you'll need to ensure you have a
 To install the SDK run:
 
 ```bash
-
 composer require hpdc/sdk
 ```
 
