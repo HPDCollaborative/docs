@@ -1,5 +1,5 @@
 ---
-title: Getting Started with the Builder
+title: Getting Started with the Builder API
 description: Learn how to get started using the HPD Builder
 category: Introduction
 ---
@@ -7,6 +7,10 @@ category: Introduction
 # {{ $frontmatter.title }}
 
 [[toc]]
+
+Welcome to the HPD Builder API documentation. The documents here should give you all the information you need to connect your HPDC Approved application to the HPD Builder API.
+
+If you have any questions feel free to reach out to our development team through the Github Repository via the Github icon link in the header.
 
 ## Contributing
 
