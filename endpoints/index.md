@@ -10,9 +10,9 @@ category: Developer Guide
 
 The purpose of this document is to provide developers with endpoints and required/allowed parameters to consume the HPDC API.
 
-Prior to attempting to connect with the API, ensure you've read through the [OAuth2 Authentication](libraries/) requirements, and have a working implementation for your application. Details for Authentication can be found on the [Libraries page.](libraries/)
+Prior to attempting to connect with the API, ensure you've read through the [OAuth2 Authentication](../lib/libraries) requirements, and have a working implementation for your application. Details for Authentication can be found on the [Libraries page.](../lib/libraries)
 
-Examples below represent only successful requests that return an HTTP status code of 200, for information on message formats and error codes, see the [API Errors](api-errors/) or [Response Codes](response-codes/) pages.
+Examples below represent only successful requests that return an HTTP status code of 200, for information on message formats and error codes, see the [API Errors](../lib/api-errors) or [Response Codes](../lib/response-codes) pages.
 
 ## Endpoints
 

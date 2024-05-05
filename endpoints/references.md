@@ -88,7 +88,7 @@ curl --request PUT \
 
 Response returns: `resource | error`
 
-```json hl_lines="21 37 44"
+```json{21-36}
 {
   "http_status": 200,
   "http_message": "OK",
@@ -210,6 +210,6 @@ Response returns: `resource | error`
 ## Special Notes
 
 > [!tip]
-> When creating a new Reference, use the [Companies](companies/) endpoint to create a list of available active companies for your `prepared_by` and `verified_by` variables.
+> When creating a new Reference, use the [Companies](./companies) endpoint to create a list of available active companies for your `prepared_by` and `verified_by` variables.
 >
-> [Companies](companies/) produces an array to create a select menu for your UI.
+> [Companies](./companies) produces an array to create a select menu for your UI.

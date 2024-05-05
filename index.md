@@ -23,12 +23,12 @@ The documentation is built on a system called **[Doczilla](https://doczil.la)** 
 
 ## Editing Files
 
-Doczilla uses [Markdown](https://daringfireball.net/projects/markdown/syntax) to simplify writing documents.
+Doczilla uses [Markdown](https://www.markdownguide.org/getting-started) to simplify writing documents.
 
 Markdown is the primary way text documents are written on the modern web and you can learn the syntax by following the link above.
 
 There are many Markdown editor applications available for both download and online. The following article is a great place to start:
 
-[78 Tools for Writing and Previewing Markdown](https://mashable.com/2013/06/24/markdown-tools/#9LvuLGYc.ZqQ)
+[Tools | Markdown Guide](https://www.markdownguide.org/tools)
 
 If you have any further questions please feel free to open an [issue.](https://github.com/HPDCollaborative/docs/issues)

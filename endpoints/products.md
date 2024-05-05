@@ -8,7 +8,7 @@ category: Developer Guide
 
 [[toc]]
 
-A Product is the basis for building HPDs. In essence, an HPD is a [Record](records/) of what all your product contains, and you can have several HPD's for a single product.
+A Product is the basis for building HPDs. In essence, an HPD is a [Record](./records) of what all your product contains, and you can have several HPD's for a single product.
 
 Product endpoints can be used to list existing products, or create a new product.
 
@@ -106,7 +106,7 @@ curl --request PUT \
 
 Response returns: `collection | empty`
 
-```json hl_lines="13 20"
+```json{13-20}
 {
   "http_status": 200,
   "http_message": "OK",
@@ -221,7 +221,7 @@ curl --request PUT \
 
 Response returns: `resource | 404`
 
-```json hl_lines="12 19"
+```json{12-19}
 {
   "http_status": 200,
   "http_message": "OK",

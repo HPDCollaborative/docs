@@ -156,4 +156,4 @@ Let's look at some examples.
 
 We've made it very simple to parse your responses by simply testing for response codes and the existence of the `error` array.
 
-For a comprehensive list of all error and internal status codes, check out our [Response Code](response-codes/) list.
+For a comprehensive list of all error and internal status codes, check out our [Response Code](./response-codes) list.

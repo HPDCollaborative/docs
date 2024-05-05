@@ -8,7 +8,7 @@ category: Developer Guide
 
 [[toc]]
 
-Records are arguably the most important aspect of building an HPD. In fact a Record **IS** an HPD. All the other parts of an HPD are tied to a given Record such as [Materials,](materials/) [Accessories,](accessories/) [References,](references/) [VOC's,](vocs/) [Certifications](certifications/) etc. When you publish an HPD to the [HPD Public Repository,](https://www.hpd-collaborative.org/hpd-public-repository/) in fact you are publishing a **_Record_**, and it's associated properties.
+Records are arguably the most important aspect of building an HPD. In fact a Record **IS** an HPD. All the other parts of an HPD are tied to a given Record such as [Materials,](./materials) [Accessories,](./accessories) [References,](./references) [VOC's,](./vocs) [Certifications](./certifications) etc. When you publish an HPD to the [HPD Public Repository,](https://www.hpd-collaborative.org/hpd-public-repository) in fact you are publishing a **_Record_**, and it's associated properties.
 
 There are several different ways to interact with Records via the API.
 
@@ -103,7 +103,7 @@ curl --request PUT \
 
 Response returns: `resource collection | error`
 
-```json hl_lines="21 27 35 42 52 64 82 113 129 140 151 172"
+```json{21-27,35-42,52-64,82-113,129-140,151-172}
 {
   "http_status": 200,
   "http_message": "OK",
@@ -435,7 +435,7 @@ curl --request PUT \
 
 Response returns: `resource | 404`
 
-```json hl_lines="20 26 34 41 51 63 81 112 128 139 150 171"
+```json{20-26,34-41,51-63,81-112,128-139,150-171}
 {
   "http_status": 200,
   "http_message": "OK",
@@ -716,7 +716,7 @@ Response returns: `resource | validation errors`
 
 Inventory type 4 - Nested:
 
-```json hl_lines="20 26"
+```json{20-26}
 {
   "http_status": 200,
   "http_message": "OK",
@@ -756,7 +756,7 @@ Inventory type 4 - Nested:
 
 Inventory type 5 - Basic:
 
-```json hl_lines="20 26 34 46"
+```json{20-26,34-46}
 {
   "http_status": 200,
   "http_message": "OK",
