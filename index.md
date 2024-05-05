@@ -8,6 +8,8 @@ category: Introduction
 
 [[toc]]
 
+![HPD Builder UI](/builder.png)
+
 Welcome to the HPD Builder API documentation. The documents here should give you all the information you need to connect your HPDC Approved application to the HPD Builder API.
 
 If you have any questions feel free to reach out to our development team through the Github Repository via the Github icon link in the header.
