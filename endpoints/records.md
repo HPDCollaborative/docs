@@ -756,7 +756,7 @@ Inventory type 4 - Nested:
 
 Inventory type 5 - Basic:
 
-```json{20-66}
+```json{20-65}
 {
   "http_status": 200,
   "http_message": "OK",

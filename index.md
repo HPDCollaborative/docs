@@ -8,7 +8,7 @@ category: Introduction
 
 [[toc]]
 
-![HPD Collaborative](/logo.svg)
+## Contributing
 
 You can contribute to the documentation in the following two ways:
 
