@@ -12,7 +12,7 @@ Special Conditions were implemented starting at version 2.1.1 of the HPD Open St
 
 This page will cover both Special Condition Materials and Special Condition Substances as well as the Selectable Options for Special Conditions for use in your own UI.
 
-## 1. Selectable Options
+## Selectable Options
 
 > [!note]
 > Use this endpoint to create a select menu or radio buttons for selecting the appropriate Special Condition for your Material or Substance. These condition ids are the same for both Materials and Substances.

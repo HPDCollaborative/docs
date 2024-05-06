@@ -82,7 +82,7 @@ curl --request PUT \
 
 Response returns: `collection | empty`
 
-```json{14}
+```json{14-32}
 {
   "http_status": 200,
   "http_message": "OK",

@@ -1,0 +1,20 @@
+name: Trigger Webhook
+
+on:
+  push:
+    branches-ignore:
+      - main
+
+  workflow_dispatch:
+
+jobs:
+  trigger:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Trigger webhook
+        run: |
+          response=$(curl -s -o response.txt -w "%{http_code}" -X POST -H "Content-Type: application/json" -d '{"event":"push"}' ${{ secrets.WEBHOOK_URL }})
+          echo "HTTP Status Code: $response"
+          echo "Response Body:"
+          cat response.txt
