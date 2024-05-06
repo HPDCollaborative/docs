@@ -87,10 +87,6 @@
       {
         "text": "Response Codes",
         "link": "lib/response-codes"
-      },
-      {
-        "text": "CHANGELOG",
-        "link": "lib/changelog"
       }
     ]
   }
